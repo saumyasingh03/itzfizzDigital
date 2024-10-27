@@ -1,0 +1,153 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111fa;
+    color: #fff;
+}
+
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.language-switch a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.project-section {
+    /* display: flex;
+    flex-direction:row;
+    align-items: center; */
+    margin-top: 15px;
+    /* text-align: center; */
+}
+
+.moving-image {
+    display:flex;
+    flex-direction:row;
+    max-width: 250px;
+    
+    width: 50%;
+    border-radius: 10px;
+}
+
+.project-title {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+  line-height: 1.1;
+}
+
+.project-description {
+    font-size: 1.2em;
+    color: #bbb;
+    margin-top: 10px;
+} 
+ 
+  .image {
+    position:absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  #image1 {
+    top: 10px;
+   /* padding-left: 150px; */
+    transform: rotate(-5deg);
+    /* z-index: 3; */
+  }
+  
+  #image2 {
+   
+    transform: rotate(10deg);
+    /* z-index: 2; */
+  }
+  
+  #image3 {
+    
+    transform: rotate(-7deg);
+    /* z-index: 1; */
+  }
+  
+  #image4 {
+   
+    transform: rotate(5deg);
+    /* z-index: 4; */
+  }
+  
+ 
+  .image:hover {
+    z-index: 5; 
+    transform: scale(1.1);
+  }
+  
+  .one {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 400px;
+   
+    text-align: center;
+    padding:50px
+    
+   
+  }
+
+  .two {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding:50px
+  }
+
+  #text{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+   
+  }
+
